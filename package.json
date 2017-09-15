@@ -1,0 +1,14 @@
+{
+  "name": "app-dynamics-sample-app",
+  "version": "1.0.0",
+  "description": "Sample App for DevNet app-dynamics-101 Learning Lab",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "geekbleek",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
