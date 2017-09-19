@@ -1,13 +1,3 @@
-require("appdynamics").profile({
-  controllerHostName: 'localhost',
-  controllerPort: 8090,
-  accountName: 'customer1',
-  accountAccessKey: 'ab1fd789-c035-47dd-bfd6-aff7599ddbcb',
-  applicationName: 'devnet-sample-app',
-  tierName: 'backend',
-  nodeName: 'process' // The controller will automatically append the node name with a unique number
-});
-
 const express = require('express')
 const app = express()
 
