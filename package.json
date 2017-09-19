@@ -9,7 +9,6 @@
   "author": "geekbleek",
   "license": "MIT",
   "dependencies": {
-    "appdynamics": "^4.3.6",
     "bluebird": "^3.5.0",
     "bottleneck": "^1.16.0",
     "express": "^4.15.4",
