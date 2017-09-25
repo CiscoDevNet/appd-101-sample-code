@@ -32,7 +32,7 @@ app.get('/500', function (req, res) {
 })
 
 app.get('/slow', function (req, res) {
-    setInterval(function() {
+    setTimeout(function() {
       res.status(200).send('Whew, that took a while!')
       console.log('Slow transaction')
     }, 2000)
